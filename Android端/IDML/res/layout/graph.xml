@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.idml.FullscreenActivity" >
+    <LinearLayout 
+		android:orientation="vertical" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center">
+		<Button
+	        android:id="@+id/button_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="传输" />
+		<ImageView
+	        android:id="@+id/iv_image"
+	        android:layout_width="240dp"
+	        android:layout_height="380dp"
+	        android:layout_marginTop="10dp"
+	        android:scaleType="fitXY" />
+		<TextView
+	        android:id="@+id/tishi"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:textColor="#ffffff"
+	        android:text="等待信号" />
+	</LinearLayout>
+	
+    
+        	
+</FrameLayout>

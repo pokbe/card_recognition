@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.idml.FullscreenActivity" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center">
+		<ImageButton android:src="@drawable/shooter" android:id="@+id/btn_rec_from_camera"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<TextView 
+			android:id="@+id/tishi"
+			android:gravity="center"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:textSize="20sp"
+	        android:text="拍      照" />
+    </LinearLayout>
+
+   
+ </FrameLayout>
